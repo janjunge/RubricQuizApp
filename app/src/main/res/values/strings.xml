@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Rubric for QuizApp 17/18 v0.1</string>
+    <string name="asking_for_name">Let us start easy. What is your name?</string>
+    <string name="asking_for_name_hint">First- or Last- or Nick- or Fantasy name it\'s up to you </string>
+    <!--For Criteria 1 overall layout prefixed a  -->
+    <string name="a_overall_layout_question">a) The App should have 4 - 10 Questions?</string>
+    <string name="a_overall_layout_answer_1">42 -2018</string>
+    <string name="a_overall_layout_answer_2">Yes 4 - 10 Questions</string>
+    <!--For Criteria 2 question types prefixed b  -->
+    <string name="b_question_types_question">b) In which Formats should the Questions appear?</string>
+    <string name="b_question_types_answer_1">Checkbox, Radio Button and Free Text</string>
+    <string name="b_question_types_answer_2">Check boxes are only used for questions with multiple right answers</string>
+    <string name="b_question_types_answer_3">Radio buttons are only used for questions with a single right answer.</string>
+    <string name="b_question_types_answer_4">Pancakes are also a great choice</string>
+    <!--For Criteria 3 submit button prefixed c  -->
+    <string name="c_submit_button_question">c) Is there a button for the user to submit?</string>
+    <string name="c_submit_button_answer_1">Yes</string>
+    <string name="c_submit_button_answer_2">Maple Syrup</string>
+    <!--For Criteria 4 Layout best practices  prefixed d  -->
+    <string name="d_layout_best_practices_question">d) What does the code layout have to adhere to?</string>
+    <string name="d_layout_best_practices_answer_1">Yes: Text sizes are defined in sp. Lengths are defined in dp. Padding and margin is used appropriately, such that the views are not crammed up against each other.</string>
+    <string name="d_layout_best_practices_answer_2">Absolutely: The code needs to be hard to read. Best is numbers for variable names. Also lots of cryptic code that is never used</string>
+    <!--For Criteria 5 View Variety prefixed e -->
+    <string name="e_view_variety_question">e) What is required to implement view variety?</string>
+    <string name="e_view_variety_answer_1">The app includes at least four of the following Views: TextView, ImageView, Button, Checkbox, EditText, LinearLayout, RelativeLayout, ScrollView, RadioButton, RadioGroup.</string>
+    <string name="e_view_variety_answer_2">If applicable, the app uses nested ViewGroups to reduce the complexity of the layout.</string>
+    <string name="e_view_variety_answer_3">A Button is enough! It can be white it can be black- there you go: variety!</string>
+    <!--For Criteria 6 rotation prefixed f -->
+    <string name="f_rotation_question">f) Does the app gracefully handle displaying all the content on screen when rotated?</string>
+    <string name="f_rotation_answer_1">Yes!</string>
+    <string name="f_rotation_answer_2">Maybe?</string>
+    <string name="f_rotation_answer_3">It does - but not exactly gracefully</string>
+    <!--For Criteria  7 Runtime Errors prefixed g -->
+    <string name="g_runtime_errors_question">g) Does the code run without errors?</string>
+    <string name="g_runtime_errors_answer_1">Yes!</string>
+    <string name="g_runtime_errors_answer_2">It does - just do not touch anything</string>
+    <!--For Criteria 8 Question Answers prefixed i -->
+    <string name="h_question_answers_question">h) Does each question have a correct answer?</string>
+    <string name="h_question_answers_answer_1">Yes</string>
+    <string name="h_question_answers_answer_2">Absolutely Not</string>
+    <!--For Criteria radioButton implementation  prefixed i  -->
+    <string name="i_radio_button_implementation_question">i) For Question with radio buttons can you only check one radio button?</string>
+    <string name="i_radio_button_implementation_answer_1">Yes</string>
+    <string name="i_radio_button_implementation_answer_2">I can check multiple radio buttons for one question.</string>
+    <!--For Criteria control statements prefixed j -->
+    <string name="j_control_statements_question">j) Does your code contain an if/else statement?</string>
+    <string name="j_control_statements_answer_1">Yes</string>
+    <string name="j_control_statements_answer_2">Never</string>
+    <!--For Criteria grading button function prefixed k -->
+    <string name="k_grading_button_question">k) Does your Button display a toast with correct result?</string>
+    <string name="k_grading_button_answer_1">Yes</string>
+    <string name="k_grading_button_answer_2">Result on Toast? That sounds wrong!</string>
+    <string name="k_grading_button_answer_3">Not at all</string>
+    <!--For Criteria grading logic prefixed l -->
+    <string name="l_grading_logic_question">l) Do you check for right and wrong answers and count accordingly?</string>
+    <string name="l_grading_logic_answer_1">Yes</string>
+    <string name="l_grading_logic_answer_2">1, 2, 3, 5 Oh No! Lets try again: 1, 2, 3,</string>
+    <!--For Criteria naming conventions prefixed m  -->
+    <string name="m_code_naming_conventions_question">m) Are your variables, methods, and resource Ids self describing for readability?</string>
+    <string name="m_code_naming_conventions_answer_1">Yes</string>
+    <string name="m_code_naming_conventions_answer_2">No Way</string>
+    <!--For Criteria code format prefixed n -->
+    <string name="n_code_format_question">n) Is your code properly formatted? Is your code free from unnecessary blank lines; unused vars or methods; commented out code.</string>
+    <string name="n_code_format_answer_1">Yes</string>
+    <string name="n_code_format_answer_2">Not today</string>
+    <!--For the score button  -->
+    <string name="score_button">So how is your App?</string>
+    <string name="score_button_result_wrong">Your App is terrific but you are missing: </string>
+    <string name="score_button_result_right">Wonderful! Score: </string>
+    <string name="score_button_name_missing">Please enter your name</string>
+</resources>
