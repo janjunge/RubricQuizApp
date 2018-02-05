@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/blue_finger_270x480"
-    android:padding="10dp"
+    android:padding="@dimen/tenDp"
     android:scrollbars="vertical"
     tools:context=".MainActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginLeft="7sp"
+        android:layout_marginLeft="@dimen/sevenSp"
         android:orientation="vertical">
         <TextView
             style="@style/MyQuestions"
@@ -21,298 +21,298 @@
             android:hint="@string/asking_for_name_hint"
             android:imeOptions="actionDone"
             android:inputType="textPersonName"
-            android:textColorHint="#FFF" />
+            android:textColorHint="@color/white" />
         <TextView
             style="@style/MyQuestions"
-            android:text="@string/a_overall_layout_question" />
+            android:text="@string/a_overall_layout_q" />
         <RadioGroup
             android:id="@+id/a"
             style="@style/MyControls">
             <RadioButton
                 android:id="@+id/a1"
                 style="@style/MyControls"
-                android:buttonTint="#FFF"
+                android:buttonTint="@color/white"
                 android:onClick="radioClicked"
-                android:text="@string/a_overall_layout_answer_1" />
+                android:text="@string/a_overall_layout_a1" />
             <RadioButton
                 android:id="@+id/a2"
                 style="@style/MyControls"
-                android:buttonTint="#FFF"
+                android:buttonTint="@color/white"
                 android:onClick="radioClicked"
-                android:text="@string/a_overall_layout_answer_2" />
+                android:text="@string/a_overall_layout_2" />
         </RadioGroup>
         <TextView
             style="@style/MyQuestions"
-            android:text="@string/b_question_types_question" />
+            android:text="@string/b_question_types_q" />
         <CheckBox
             android:id="@+id/b1"
             style="@style/MyControls"
-            android:buttonTint="#FFF"
+            android:buttonTint="@color/white"
             android:onClick="checkBoxClicked"
-            android:text="@string/b_question_types_answer_1" />
+            android:text="@string/b_question_types_a1" />
         <CheckBox
             android:id="@+id/b2"
             style="@style/MyControls"
-            android:buttonTint="#FFF"
+            android:buttonTint="@color/white"
             android:onClick="checkBoxClicked"
-            android:text="@string/b_question_types_answer_2" />
+            android:text="@string/b_question_types_a2" />
         <CheckBox
             android:id="@+id/b3"
             style="@style/MyControls"
-            android:buttonTint="#FFF"
+            android:buttonTint="@color/white"
             android:onClick="checkBoxClicked"
-            android:text="@string/b_question_types_answer_3" />
+            android:text="@string/b_question_types_a3" />
         <CheckBox
             android:id="@+id/b4"
             style="@style/MyControls"
-            android:buttonTint="#FFF"
+            android:buttonTint="@color/white"
             android:onClick="checkBoxClicked"
-            android:text="@string/b_question_types_answer_4" />
+            android:text="@string/b_question_types_a4" />
         <TextView
             style="@style/MyQuestions"
-            android:text="@string/c_submit_button_question" />
+            android:text="@string/c_submit_button_q" />
         <RadioGroup
             android:id="@+id/c"
             style="@style/MyControls">
             <RadioButton
                 android:id="@+id/c1"
                 style="@style/MyControls"
-                android:buttonTint="#FFF"
+                android:buttonTint="@color/white"
                 android:onClick="radioClicked"
-                android:text="@string/c_submit_button_answer_1" />
+                android:text="@string/c_submit_button_a1" />
             <RadioButton
                 android:id="@+id/c2"
                 style="@style/MyControls"
-                android:buttonTint="#FFF"
+                android:buttonTint="@color/white"
                 android:onClick="radioClicked"
-                android:text="@string/c_submit_button_answer_2" />
+                android:text="@string/c_submit_button_a2" />
         </RadioGroup>
         <TextView
             style="@style/MyQuestions"
-            android:text="@string/d_layout_best_practices_question" />
+            android:text="@string/d_layout_best_practices_q" />
         <RadioGroup
             android:id="@+id/d"
             style="@style/MyControls">
             <RadioButton
                 android:id="@+id/d1"
                 style="@style/MyControls"
-                android:buttonTint="#FFF"
+                android:buttonTint="@color/white"
                 android:onClick="radioClicked"
-                android:text="@string/d_layout_best_practices_answer_1" />
+                android:text="@string/d_layout_best_practices_a1" />
             <RadioButton
                 android:id="@+id/d2"
                 style="@style/MyControls"
-                android:buttonTint="#FFF"
+                android:buttonTint="@color/white"
                 android:onClick="radioClicked"
-                android:text="@string/d_layout_best_practices_answer_2" />
+                android:text="@string/d_layout_best_practices_a2" />
         </RadioGroup>
         <TextView
             style="@style/MyQuestions"
-            android:text="@string/e_view_variety_question" />
+            android:text="@string/e_view_variety_q" />
         <CheckBox
             android:id="@+id/e1"
             style="@style/MyControls"
-            android:buttonTint="#FFF"
+            android:buttonTint="@color/white"
             android:onClick="checkBoxClicked"
-            android:text="@string/e_view_variety_answer_1" />
+            android:text="@string/e_view_variety_a1" />
         <CheckBox
             android:id="@+id/e2"
             style="@style/MyControls"
-            android:buttonTint="#FFF"
+            android:buttonTint="@color/white"
             android:onClick="checkBoxClicked"
-            android:text="@string/e_view_variety_answer_2" />
+            android:text="@string/e_view_variety_a2" />
         <CheckBox
             android:id="@+id/e3"
             style="@style/MyControls"
-            android:buttonTint="#FFF"
+            android:buttonTint="@color/white"
             android:onClick="checkBoxClicked"
-            android:text="@string/e_view_variety_answer_3" />
+            android:text="@string/e_view_variety_a3" />
         <TextView
             style="@style/MyQuestions"
-            android:text="@string/f_rotation_question" />
+            android:text="@string/f_rotation_q" />
         <RadioGroup
             android:id="@+id/f"
             style="@style/MyControls">
             <RadioButton
                 android:id="@+id/f1"
                 style="@style/MyControls"
-                android:buttonTint="#FFF"
+                android:buttonTint="@color/white"
                 android:onClick="radioClicked"
-                android:text="@string/f_rotation_answer_1" />
+                android:text="@string/f_rotation_a1" />
             <RadioButton
                 android:id="@+id/f2"
                 style="@style/MyControls"
-                android:buttonTint="#FFF"
+                android:buttonTint="@color/white"
                 android:onClick="radioClicked"
-                android:text="@string/f_rotation_answer_2" />
+                android:text="@string/f_rotation_a2" />
             <RadioButton
                 style="@style/MyControls"
-                android:buttonTint="#FFF"
+                android:buttonTint="@color/white"
                 android:onClick="radioClicked"
-                android:text="@string/f_rotation_answer_3" />
+                android:text="@string/f_rotation_a3" />
         </RadioGroup>
         <TextView
             style="@style/MyQuestions"
-            android:text="@string/g_runtime_errors_question" />
+            android:text="@string/g_runtime_errors_q" />
         <RadioGroup
             android:id="@+id/g"
             style="@style/MyControls">
             <RadioButton
                 android:id="@+id/g1"
                 style="@style/MyControls"
-                android:buttonTint="#FFF"
+                android:buttonTint="@color/white"
                 android:onClick="radioClicked"
-                android:text="@string/g_runtime_errors_answer_1" />
+                android:text="@string/g_runtime_errors_a1" />
             <RadioButton
                 android:id="@+id/g2"
                 style="@style/MyControls"
-                android:buttonTint="#FFF"
+                android:buttonTint="@color/white"
                 android:onClick="radioClicked"
-                android:text="@string/g_runtime_errors_answer_2" />
+                android:text="@string/g_runtime_errors_a2" />
         </RadioGroup>
         <TextView
             style="@style/MyQuestions"
-            android:text="@string/h_question_answers_question" />
+            android:text="@string/h_question_answers_q" />
         <RadioGroup
             android:id="@+id/h"
             style="@style/MyControls">
             <RadioButton
                 android:id="@+id/h1"
                 style="@style/MyControls"
-                android:buttonTint="#FFF"
+                android:buttonTint="@color/white"
                 android:onClick="radioClicked"
-                android:text="@string/h_question_answers_answer_1" />
+                android:text="@string/h_question_answers_a1" />
             <RadioButton
                 android:id="@+id/h2"
                 style="@style/MyControls"
-                android:buttonTint="#FFF"
+                android:buttonTint="@color/white"
                 android:onClick="radioClicked"
-                android:text="@string/h_question_answers_answer_2" />
+                android:text="@string/h_question_answers_a2" />
         </RadioGroup>
         <TextView
             style="@style/MyQuestions"
-            android:text="@string/i_radio_button_implementation_question" />
+            android:text="@string/i_radio_button_implementation_q" />
         <RadioGroup
             android:id="@+id/i"
             style="@style/MyControls">
             <RadioButton
                 android:id="@+id/i1"
                 style="@style/MyControls"
-                android:buttonTint="#FFF"
+                android:buttonTint="@color/white"
                 android:onClick="radioClicked"
-                android:text="@string/i_radio_button_implementation_answer_1" />
+                android:text="@string/i_radio_button_implementation_a1" />
             <RadioButton
                 android:id="@+id/i2"
                 style="@style/MyControls"
-                android:buttonTint="#FFF"
+                android:buttonTint="@color/white"
                 android:onClick="radioClicked"
-                android:text="@string/i_radio_button_implementation_answer_2" />
+                android:text="@string/i_radio_button_implementation_a2" />
         </RadioGroup>
         <TextView
             style="@style/MyQuestions"
-            android:text="@string/j_control_statements_question" />
+            android:text="@string/j_control_statements_q" />
         <RadioGroup
             android:id="@+id/j"
             style="@style/MyControls">
             <RadioButton
                 android:id="@+id/j1"
                 style="@style/MyControls"
-                android:buttonTint="#FFF"
+                android:buttonTint="@color/white"
                 android:onClick="radioClicked"
-                android:text="@string/j_control_statements_answer_1" />
+                android:text="@string/j_control_statements_a1" />
             <RadioButton
                 android:id="@+id/j2"
                 style="@style/MyControls"
-                android:buttonTint="#FFF"
+                android:buttonTint="@color/white"
                 android:onClick="radioClicked"
-                android:text="@string/j_control_statements_answer_2" />
+                android:text="@string/j_control_statements_a2" />
         </RadioGroup>
         <TextView
             style="@style/MyQuestions"
-            android:text="@string/k_grading_button_question" />
+            android:text="@string/k_grading_button_q" />
         <RadioGroup
             android:id="@+id/k"
             style="@style/MyControls">
             <RadioButton
                 android:id="@+id/k1"
                 style="@style/MyControls"
-                android:buttonTint="#FFF"
+                android:buttonTint="@color/white"
                 android:onClick="radioClicked"
-                android:text="@string/k_grading_button_answer_1" />
+                android:text="@string/k_grading_button_a1" />
             <RadioButton
                 android:id="@+id/k2"
                 style="@style/MyControls"
-                android:buttonTint="#FFF"
+                android:buttonTint="@color/white"
                 android:onClick="radioClicked"
-                android:text="@string/k_grading_button_answer_2" />
+                android:text="@string/k_grading_button_a2" />
             <RadioButton
                 style="@style/MyControls"
-                android:buttonTint="#FFF"
+                android:buttonTint="@color/white"
                 android:onClick="radioClicked"
-                android:text="@string/k_grading_button_answer_3" />
+                android:text="@string/k_grading_button_a3" />
         </RadioGroup>
         <TextView
             style="@style/MyQuestions"
-            android:text="@string/l_grading_logic_question" />
+            android:text="@string/l_grading_logic_q" />
         <RadioGroup
             android:id="@+id/l"
             style="@style/MyControls">
             <RadioButton
                 android:id="@+id/l1"
                 style="@style/MyControls"
-                android:buttonTint="#FFF"
+                android:buttonTint="@color/white"
                 android:onClick="radioClicked"
-                android:text="@string/l_grading_logic_answer_1" />
+                android:text="@string/l_grading_logic_a1" />
             <RadioButton
                 android:id="@+id/l2"
                 style="@style/MyControls"
-                android:buttonTint="#FFF"
+                android:buttonTint="@color/white"
                 android:onClick="radioClicked"
-                android:text="@string/l_grading_logic_answer_2" />
+                android:text="@string/l_grading_logic_a2" />
         </RadioGroup>
         <TextView
             style="@style/MyQuestions"
-            android:text="@string/m_code_naming_conventions_question" />
+            android:text="@string/m_code_naming_conventions_q" />
         <RadioGroup
             android:id="@+id/m"
             style="@style/MyControls">
             <RadioButton
                 android:id="@+id/m1"
                 style="@style/MyControls"
-                android:buttonTint="#FFF"
+                android:buttonTint="@color/white"
                 android:onClick="radioClicked"
-                android:text="@string/m_code_naming_conventions_answer_1" />
+                android:text="@string/m_code_naming_conventions_a1" />
             <RadioButton
                 android:id="@+id/m2"
                 style="@style/MyControls"
-                android:buttonTint="#FFF"
+                android:buttonTint="@color/white"
                 android:onClick="radioClicked"
-                android:text="@string/m_code_naming_conventions_answer_2" />
+                android:text="@string/m_code_naming_conventions_a2" />
         </RadioGroup>
         <TextView
             style="@style/MyQuestions"
-            android:text="@string/n_code_format_question" />
+            android:text="@string/n_code_format_q" />
         <RadioGroup
             android:id="@+id/n"
             style="@style/MyControls">
             <RadioButton
                 android:id="@+id/n1"
                 style="@style/MyControls"
-                android:buttonTint="#FFF"
+                android:buttonTint="@color/white"
                 android:onClick="radioClicked"
-                android:text="@string/n_code_format_answer_1" />
+                android:text="@string/n_code_format_a1" />
             <RadioButton
                 android:id="@+id/n2"
                 style="@style/MyControls"
-                android:buttonTint="#FFF"
+                android:buttonTint="@color/white"
                 android:onClick="radioClicked"
-                android:text="@string/n_code_format_answer_2" />
+                android:text="@string/n_code_format_a2" />
         </RadioGroup>
         <Button
             style="@style/MyControls"
             android:backgroundTint="@color/colorPrimary"
             android:onClick="submitButtonClicked"
             android:text="@string/score_button"
-            android:textSize="16sp" />
+            android:textSize="@dimen/sixTeensp" />
     </LinearLayout>
 </ScrollView>
